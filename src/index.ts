@@ -1,5 +1,5 @@
 import "dotenv/config.js";
-import "express-async-error";
+import "express-async-errors";
 import express from "express";
 import authRoute from "./routes/auth.route.js";
 import teacherRoute from "./routes/teacher.route.js";
